@@ -126,6 +126,9 @@ rules:
   - DOMAIN-KEYWORD,telegram,📲 电报信息
   - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
   - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
   - DOMAIN-SUFFIX,nnr.moe,🚀 节点选择
   - DOMAIN-SUFFIX,openai.com,🤖 AI 服务
   - DOMAIN-SUFFIX,chatgpt.com,🤖 AI 服务
@@ -183,15 +186,6 @@ rules:
   - DOMAIN-SUFFIX,line.me,📺 台湾流媒体
   - DOMAIN-SUFFIX,naver.jp,📺 台湾流媒体
   - DOMAIN-SUFFIX,line-apps.com,📺 台湾流媒体
-  - DOMAIN-SUFFIX,t.me,🚀 节点选择
-  - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
-  - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
-  - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
-  - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
-  - IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
@@ -359,24 +353,6 @@ rules:
   - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🚀 节点选择
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择 
-  - IP-CIDR,8.41.4.0/24,🚀 节点选择,no-resolve
-  - IP-CIDR,23.246.0.0/18,🚀 节点选择,no-resolve
-  - IP-CIDR,37.77.184.0/21,🚀 节点选择,no-resolve
-  - IP-CIDR,38.72.126.0/24,🚀 节点选择,no-resolve
-  - IP-CIDR,45.57.0.0/17,🚀 节点选择,no-resolve
-  - IP-CIDR,64.120.128.0/17,🚀 节点选择,no-resolve
-  - IP-CIDR,66.197.128.0/17,🚀 节点选择,no-resolve
-  - IP-CIDR,69.53.224.0/19,🚀 节点选择,no-resolve
-  - IP-CIDR,103.87.204.0/22,🚀 节点选择,no-resolve
-  - IP-CIDR,108.175.32.0/20,🚀 节点选择,no-resolve
-  - IP-CIDR,185.2.220.0/22,🚀 节点选择,no-resolve
-  - IP-CIDR,185.9.188.0/22,🚀 节点选择,no-resolve
-  - IP-CIDR,192.173.64.0/18,🚀 节点选择,no-resolve
-  - IP-CIDR,198.38.96.0/19,🚀 节点选择,no-resolve
-  - IP-CIDR,198.45.48.0/20,🚀 节点选择,no-resolve
-  - IP-CIDR,203.75.84.0/24,🚀 节点选择,no-resolve
-  - IP-CIDR,207.45.72.0/22,🚀 节点选择,no-resolve
-  - IP-CIDR,208.75.76.0/22,🚀 节点选择,no-resolve
   - DOMAIN-SUFFIX,dmc.nico,🚀 节点选择
   - DOMAIN-SUFFIX,nicovideo.jp,🚀 节点选择
   - DOMAIN-SUFFIX,nimg.jp,🚀 节点选择
@@ -836,16 +812,6 @@ rules:
   - DOMAIN-SUFFIX,twimg.co,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.org,🚀 节点选择
-  - DOMAIN-SUFFIX,t.me,🚀 节点选择
-  - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
-  - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
-  - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
-  - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
-  - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
-  - IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
   - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
   - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
   - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
